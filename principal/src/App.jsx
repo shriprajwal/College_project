@@ -31,6 +31,8 @@ import FacultyPlanner from "./Faculty/pages/Facultyplanner";
 import FacultyMessage from "./Faculty/pages/Facultymessage";
 import FacultyReg from "./Faculty/pages/Facultyregistration";
 
+// student page
+import StudentLogin from "./Student/pages/studentLogin";
 
 
 
@@ -67,6 +69,8 @@ const App = () => {
         <Route path="/planner/faculty" element={<FacultyPlanner />} />
         <Route path="/messages/faculty" element={<FacultyMessage />} />
         <Route path="/register/faculty" element={<FacultyReg />} />
+        {/* student PAGES */}
+        <Route path="/student/login" element={<StudentLogin />} />
       </Routes>
     </BrowserRouter>
   );
