@@ -40,6 +40,7 @@ import StudentDetails from "./Student/pages/studentdetails";
 import ExamManagement from "./Student/pages/ExamManagement";
 import Timetable from "./Student/pages/studenttimeteble";
 import Attendance from "./Student/pages/Attendance";
+import StudentSyllabus from "./Student/pages/studentsyllabus";
 
 const App = () => {
   return (
@@ -87,6 +88,8 @@ const App = () => {
         <Route path="/student/exam" element={<ExamManagement/>} />
         <Route path="/student/timetable" element={<Timetable/>} />
         <Route path="/student/attendance" element={<Attendance/>} />
+        <Route path="/student/syllabus" element={<StudentSyllabus />} />
+
       </Routes>
     </BrowserRouter>
   );
