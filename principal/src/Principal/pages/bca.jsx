@@ -117,7 +117,7 @@ const mgmtCards = [
     desc:"Student enrollment and academic records",
     sub:"Student list, attendance, and performance",
     badge:"180 Students",
-    onClick: () => navigate("/department/bca/students"), // ✅ navigates to std.jsx
+    onClick: () => navigate("/department/bca/students"),
   },
   {
     icon:TimetableIcon,
@@ -126,7 +126,7 @@ const mgmtCards = [
     desc:"Class schedules and room allocations",
     sub:"Time slots, venues, and course schedules",
     badge:"Weekly Schedule",
-    onClick: null,
+    onClick: () => navigate("/department/bca/timetable"), // ✅ fixed
   },
   {
     icon:SyllabusIcon,
